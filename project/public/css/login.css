@@ -31,7 +31,7 @@ a {
 }
 
 .table {
-    width: 44em;;
+    width: 43.5em;;
     height: 38em;
     left: 205px;
     top: 281px;
@@ -74,7 +74,7 @@ input[type=email] {
 .password-conteinerLoginPage {
     width: 40%;
     justify-self: center;
-    margin: 0 auto;
+    margin: 0 auto 2em;
     align-self: center;
 }
 
@@ -111,7 +111,7 @@ input[type=password] {
     text-align: center;
     font-weight: normal;
     font-size: 24px;
-    line-height: 31px;
+    line-height: 10px;
     text-transform: uppercase;
     color: #FFFFFF;
 }

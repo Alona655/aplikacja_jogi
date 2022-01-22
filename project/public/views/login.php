@@ -9,20 +9,24 @@
 <body>
 <main>
     <section>
-<!--            <header>-->
-<!--                <div class="container">-->
-<!--                    <div class="logo">-->
-<!--                        <p>yoga</p>-->
-<!--                    </div>-->
-<!--                    <div class="menu">-->
-<!--                        <nav>-->
-<!--                            <a class="freeTrial" href="">free trial</a>-->
-<!--                            <a class="textLogIn" href="">log in</a>-->
-<!--                            <a class="burger" href=""><img src="public/img/burger.svg"></a>-->
-<!--                        </nav>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </header>-->
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <p>yoga</p>
+                    </div>
+                    <div class="menu">
+                        <nav>
+                            <a class="freeTrial" href="">free trial</a>
+                            <div class="buttonHeader">
+                                <a class="buttonHeader" href="">
+                                    <p class="textLogIn">log in</p>
+                                </a>
+                            </div>
+                            <a class="burger" href=""><img src="public/img/burger.svg"></a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
 
         <div class="content">
             <div class="titleBlock1">
