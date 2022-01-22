@@ -33,6 +33,18 @@
                             <p class="textButtonLogin">log in</p>
                         </a>
                     </div>
+                    <div class="infoAndLinks">
+                        <div class="textUnderButtonLoginPage">
+                            <p>Albo wejdż za pomocą</p>
+                        </div>
+                        <div class="imgsLogins">
+                            <img src="public/imgLoginPage/google.svg">
+                            <img src="public/imgLoginPage/facebook.svg">
+                        </div>
+                        <div class="registrationLoginPage">
+                            <p class="konto"><span class="registration">Nie masz konta? </span>Zarejestruj się</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

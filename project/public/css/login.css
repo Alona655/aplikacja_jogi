@@ -31,8 +31,8 @@ a {
 }
 
 .table {
-    width: 640px;
-    height: 35em;
+    width: 44em;;
+    height: 38em;
     left: 205px;
     top: 281px;
     border-radius: 30px 0;
@@ -102,7 +102,7 @@ input[type=password] {
     background: #8878AF;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    margin: 0 100px 20px;
+    margin: 0 120px 20px;
 }
 
 .textButtonLogin {
@@ -114,4 +114,51 @@ input[type=password] {
     line-height: 31px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.textUnderButtonLoginPage {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 10px;
+    color: #39374D;
+    margin-bottom: -0.5em;
+}
+
+.infoAndLinks {
+    display: grid;
+}
+
+.imgsLogins {
+    margin: 0 14em -1em;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.registrationLoginPage {
+    text-align: center;
+}
+
+.konto {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #8878AF;
+}
+
+.registration {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #39374D;
 }
