@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+}
+
+body {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logoRegistrationPage {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 0;
+    color: #39374D;
+    text-transform: uppercase;
+}
+
+.tableRegPage {
+    width: content-box;
+    display: grid;
+    border-radius: 30px 0;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 30px rgba(0, 0, 0, 0.25);
+}
+
+.titleTable {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    line-height: 68px;
+    color: #39374D;
+}
+
+.name-conteinerRegPage {
+    display: inline;
+    width: 30%;
+}
+
+input.conteinerNameRegPage[type=text] {
+    width: 90%;
+    border-radius: 30px 0;
+    padding: 20px;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.firstLine {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 30%;
+    margin-bottom: 1.5em;
+}
+
+.surname-conteinerRegPage {
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+input.conteinerSurRegPage[type=text] {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 20px;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.surnameRegPage {
+    display: flex;
+    justify-content: center;
+}
+
+.birthday-conteinerRegPage {
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+input.conteinerbirthdayRegPage[type=text] {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 20px;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.birthdayRegPage {
+    display: flex;
+    justify-content: center;
+}
+
+.forthLine {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 30%;
+    margin-bottom: 1.5em;
+}
+
+.weight-conteinerRegPage {
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+input.conteinerWeightRegPage[type=text] {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 20px;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.weight {
+    display: flex;
+    justify-content: center;
+}
