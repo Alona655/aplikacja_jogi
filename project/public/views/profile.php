@@ -20,7 +20,6 @@
             </nav>
         </div>
     </header>
-
     <h1 class="titleProfile">Mój Profil</h1>
     <div class="contentProfile">
         <div class=""></div>
@@ -73,6 +72,30 @@
 </main>
 
 <footer>
-
+    <div class="titleFooterProfile">
+        <p>yoga</p>
+    </div>
+    <div class="contactsProfile">
+        <div class="profileProfile">
+            <a>Mój profil</a>
+        </div>
+        <div class="aboutUsProfile">
+            <a>O nas</a>
+        </div>
+        <div class="contactsProfile_1">
+            <a>Kontakty</a>
+        </div>
+    </div>
+    <div class="mediaProfile">
+        <img src="facebookBlock7.svg">
+        <img src="instagramBlock7.svg">
+        <img src="viberBlock7.svg">
+        <img src="twitterBlock7.svg">
+    </div>
+    <div class="termAndPrivacyProfile">
+        <p class="termProfile">Terms & Conditions</p>
+        <p class="privacyProfile">Privacy Policy</p>
+    </div>
+    <p class="copyrigthProfile">Copyrigth © 2020 Flaunter, Ltd. All rights reserved. Site credit.</p>
 </footer>
 </body>
