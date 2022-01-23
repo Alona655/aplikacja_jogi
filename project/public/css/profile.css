@@ -78,7 +78,7 @@ nav{
 
 .contentProfile {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
     align-items: center;
 }
 
@@ -89,7 +89,7 @@ nav{
 }
 
 .nameProfilePage {
-    width: 70%;
+    width: 90%;
     border-radius: 30px 0;
     padding: 0 2em;
     border: 2px solid #8878AF;
@@ -97,8 +97,9 @@ nav{
 }
 
 .parametrsProfile {
-    display: flex;
-    justify-content: end;
+    display: grid;
+    justify-items: end;
+    gap: 2em;
 }
 
 .titleNameProfile {
@@ -116,7 +117,6 @@ nav{
     color: #8878AF;
 }
 
-
 .surname-conteinerProfilePage {
     width: 100%;
     display: grid;
@@ -124,7 +124,7 @@ nav{
 }
 
 .surnameProfilePage {
-    width: 70%;
+    width: 90%;
     border-radius: 30px 0;
     padding: 0 2em;
     border: 2px solid #8878AF;
@@ -142,6 +142,143 @@ nav{
     font-family: PT Sans;
     font-weight: bold;
     text-align: end;
+    font-size: 24px;
+    color: #8878AF;
+}
+
+/*----------------------------------*/
+
+.thirdLineProfile {
+    display: flex;
+    width: 90%;
+    gap: 0 1em;
+    grid-template-columns: 48% 48%;
+}
+
+.height-conteinerProfilePage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.heightProfilePage {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 0 2em;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.titleHeightProfile {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 24px;
+    color: #AFAFAF;
+}
+
+.heightProfile {
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+    color: #8878AF;
+}
+
+.weight-conteinerProfilePage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.weightProfilePage {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 0 2em;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.titleWeightProfile {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 24px;
+    color: #AFAFAF;
+}
+
+.weightProfile {
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+    color: #8878AF;
+}
+
+/*------------------------------------------*/
+.fourthLineProfile {
+    display: flex;
+    width: 90%;
+    gap: 0 1em;
+    grid-template-columns: 28% 68%;
+}
+
+.age-conteinerProfilePage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.ageProfilePage {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 0 2em;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.titleAgeProfile {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 24px;
+    color: #AFAFAF;
+}
+
+.ageProfile {
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+    color: #8878AF;
+}
+
+.goal-conteinerProfilePage {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    padding: 0.5em 0;
+    grid-template-columns: 20% 80%;
+}
+
+.goalProfilePage {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 0 2em;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.titleGoalProfile {
+    font-family: PT Sans;
+    font-weight: normal;
+    margin: 0;
+    font-size: 24px;
+    color: #AFAFAF;
+}
+
+.goalProfile {
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
     font-size: 24px;
     color: #8878AF;
 }
