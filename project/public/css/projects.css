@@ -676,3 +676,37 @@ footer {
 img {
     margin-inline: 37px 30px;
 }
+
+.termAndPrivacyReg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    gap: 3em;
+}
+
+.termReg {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
+
+.privacyReg {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}

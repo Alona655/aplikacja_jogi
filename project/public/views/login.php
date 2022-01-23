@@ -233,10 +233,11 @@
         <img src="twitterBlock7.svg">
     </div>
     <div class="termAndPrivacy">
-
+        <p class="termReg">Terms & Conditions</p>
+        <p class="privacyReg">Privacy Policy</p>
     </div>
     <div class="copyrights">
-
+        <p class="copyrigthReg">Copyrigth © 2020 Flaunter, Ltd. All rights reserved. Site credit.</p>
     </div>
 </footer>
 </body>
