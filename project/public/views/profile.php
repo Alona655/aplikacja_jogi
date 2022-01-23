@@ -20,6 +20,26 @@
             </nav>
         </div>
     </header>
+
+    <h1 class="titleProfile">Mój Profil</h1>
+    <div class="contentProfile">
+        <img src="">
+        <div class="parametrsProfile">
+            <div class="nameProfilePage">
+                <div class="name-conteinerProfilePage">
+                    <p class="titleNameProfile">Imię</p>
+                    <p class="nameProfile">Monika</p>
+                </div>
+            </div>
+            <div class="surnameProfilePage">
+                <div class="surname-conteinerProfilePage">
+                    <p class="titleSurProfile">Nazwisko</p>
+                    <p class="surProfile">Janowska</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </main>
 
 <footer>

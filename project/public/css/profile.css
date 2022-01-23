@@ -10,6 +10,12 @@ header {
     align-items: center;
 }
 
+body {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+}
+
 a {
     text-decoration: none;
 }
@@ -19,7 +25,6 @@ a {
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
-    line-height: 50px;
     color: #39374D;
     text-transform: uppercase;
 }
@@ -61,4 +66,82 @@ nav{
 
 .burgerProfile {
     display: block;
+}
+
+.titleProfile {
+    font-family: PT Serif;
+    font-size: 48px;
+    padding: 1em 0;
+    margin: 0;
+    color: #39374D;
+}
+
+.contentProfile {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.name-conteinerProfilePage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.nameProfilePage {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 0 2em;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.parametrsProfile {
+    display: flex;
+    justify-content: end;
+}
+
+.titleNameProfile {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 24px;
+    color: #AFAFAF;
+}
+
+.nameProfile {
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+    color: #8878AF;
+}
+
+
+.surname-conteinerProfilePage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.surnameProfilePage {
+    width: 70%;
+    border-radius: 30px 0;
+    padding: 0 2em;
+    border: 2px solid #8878AF;
+    font-size: larger;
+}
+
+.titleSurProfile {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 24px;
+    color: #AFAFAF;
+}
+
+.surProfile {
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+    color: #8878AF;
 }
