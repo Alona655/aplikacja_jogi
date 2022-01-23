@@ -275,6 +275,7 @@ footer {
     font-size: 64px;
     line-height: 85px;
     color: #39374D;
+    padding: 2em 0 0;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
@@ -282,8 +283,9 @@ footer {
 
 .contactsReg {
     display: grid;
-    justify-content: space-around;
-    grid-template-columns: 50% 40% 50%;
+    gap: 4em;
+    justify-content: center;
+    grid-template-columns: 20% 10% 20%;
 }
 
 .profileReg {
@@ -319,15 +321,15 @@ footer {
 
 .mediaReg {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 1em;
+    justify-content: center;
+    gap: 4em;
 }
 
 .termAndPrivacyReg {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 1em;
-    gap: 3em;
+    justify-content: center;
+    gap: 5em;
 }
 
 .termReg {
@@ -347,6 +349,21 @@ footer {
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
+
+.copyrigthReg {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 0 2em;
     font-size: 18px;
     line-height: 23px;
     display: flex;
