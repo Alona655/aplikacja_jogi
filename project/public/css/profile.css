@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logoProfile {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 50px;
+    color: #39374D;
+    text-transform: uppercase;
+}
+
+nav{
+    gap: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.menuProfile {
+    justify-self: end;
+    text-align: left;
+}
+
+.findingCourseProfile {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.aboutUsProfile {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.myProfileInProfile {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.burgerProfile {
+    display: block;
+}

@@ -10,7 +10,7 @@
 <main>
     <section>
             <header>
-                <div class="container">
+                <div class="containerProfile">
                     <div class="logo">
                         <p>yoga</p>
                     </div>
