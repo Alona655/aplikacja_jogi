@@ -7,11 +7,12 @@
 
 <body>
 <main>
+    <header>
     <div class="logoActivity">
         <p>yoga</p>
     </div>
     <div class="menuActivity">
-        <nav>
+        <nav class="navActivity">
             <a class="findingCourseActivity" href="">Poszuk kursu</a>
             <a class="aboutUsActivity" href="">O nas</a>
             <a class="myProfileInActivity" href="">Mój Profil</a>
@@ -19,7 +20,7 @@
         </nav>
     </div>
     </header>
-    <h1 class="titleActivity">Mój Profil</h1>
+    <h1 class="titleActivity">Moja aktywność</h1>
 
 </main>
 
