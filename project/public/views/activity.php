@@ -5,7 +5,11 @@
     <title>Activity</title>
 </head>
 
-<body>
+<body style="
+    background-image: url(&quot;public/imgActivity/backgroundTop.svg&quot;);
+    background-repeat: no-repeat;
+    background-size: contain;
+">
 <main>
     <header>
     <div class="logoActivity">
@@ -47,7 +51,11 @@
 
 </main>
 
-<footer>
+<footer style="
+    background-image: url(&quot;public/imgActivity/backgroundBellow.svg&quot;);
+    background-repeat: no-repeat;
+    background-size: contain;
+">
     <div class="titleFooterActivity">
         <p>yoga</p>
     </div>
