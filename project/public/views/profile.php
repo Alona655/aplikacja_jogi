@@ -2,7 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/profile.css">
-    <title>Profile</title>
+    <title>My profile</title>
 </head>
 
 <body>
