@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+body {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logoSettings {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: #39374D;
+    text-transform: uppercase;
+}
+
+.navSettings {
+    gap: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.menuSettings {
+    justify-self: end;
+    text-align: left;
+}
+
+.findingCourseSettings {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.aboutUsSettings {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.myProfileInSettings {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.burgerSettings {
+    display: block;
+}
+
+/*---------------------------------------------*/
+
+
+
