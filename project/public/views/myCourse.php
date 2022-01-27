@@ -5,7 +5,12 @@
     <title>My Courses</title>
 </head>
 
-<body>
+<body style="
+    background-image: url(public/imgMyCourses/backgroundMyCourses.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+">
 <main>
     <header>
         <div class="logoCourse">
@@ -53,7 +58,6 @@
     <img src=https://img.youtube.com/vi/VaoV1PrYft4/hqdefault.jpg alt='Demo video'>
     <span>▶</span>
     </a>"
-
                     title="YouTube video player" frameborder="0" allow="accelerometer;
                     autoplay;
                     clipboard-write;
@@ -63,10 +67,63 @@
 
             <p class="titleVide2">10 minute Morning Yoga for Beginners</p>
         </div>
+
+        <div class="video3">
+            <iframe width="476" height="267.75" src="https://www.youtube.com/embed/gXuq4M5rU9E?rel=0"
+                    srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+    html,body{height:100%}
+    img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+    span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+    </style>
+     <a href=https://www.youtube.com/embed/gXuq4M5rU9E?rel=0>
+    <img src=https://img.youtube.com/vi/gXuq4M5rU9E/hqdefault.jpg alt='Demo video'>
+    <span>▶</span>
+    </a>"
+
+                    title="YouTube video player" frameborder="0" allow="accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture" allowfullscreen></iframe>
+
+            <p class="titleVide3">20 Minute Evening Yoga Flow</p>
+
+        </div>
     </div>
 
 </main>
 
-
+<footer style="
+    background-image: url(&quot;public/imgActivity/backgroundBellow.svg&quot;);
+    background-repeat: no-repeat;
+    background-size: contain;
+">
+    <div class="titleFooterCourse">
+        <p>yoga</p>
+    </div>
+    <div class="contactsCourse">
+        <div class="profileCourse">
+            <a>Mój profil</a>
+        </div>
+        <div class="aboutUsCourse">
+            <a>O nas</a>
+        </div>
+        <div class="contactsCourse_1">
+            <a>Kontakty</a>
+        </div>
+    </div>
+    <div class="mediaCourse">
+        <img src="facebookBlock7.svg">
+        <img src="instagramBlock7.svg">
+        <img src="viberBlock7.svg">
+        <img src="twitterBlock7.svg">
+    </div>
+    <div class="termAndPrivacyCourse">
+        <p class="termCourse">Terms & Conditions</p>
+        <p class="privacyCourse">Privacy Policy</p>
+    </div>
+    <p class="copyrigthCourse">Copyrigth © 2020 Flaunter, Ltd. All rights reserved. Site credit.</p>
+</footer>
 
 </body>

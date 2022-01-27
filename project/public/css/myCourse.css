@@ -82,7 +82,9 @@ a {
 
 .contentCourse {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 4em;
 }
 
 .video1 {
@@ -90,6 +92,8 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 2em;
+    width: 50%;
+    padding-bottom: 3em;
 }
 
 .titleVide1 {
@@ -107,6 +111,8 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 2em;
+    width: 50%;
+    padding-bottom: 3em;
 }
 
 .titleVide2 {
@@ -116,5 +122,131 @@ a {
     width: 80%;
     text-align: center;
     margin: 0;
+    color: #39374D;
+}
+
+.video3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 50%;
+    padding-bottom: 3em;
+}
+
+.titleVide3 {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    color: #39374D;
+}
+
+/*-----------------------------------------*/
+
+
+.titleFooterCourse {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 85px;
+    color: #39374D;
+    padding: 2em 0 0;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.contactsCourse {
+    display: grid;
+    gap: 4em;
+    justify-content: center;
+    grid-template-columns: 20% 10% 20%;
+}
+
+.profileCourse {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #39374D;
+    text-align: center;
+}
+
+.aboutUsCourse {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #39374D;
+}
+
+.contactsCourse_1 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #39374D;
+    margin-bottom: 1em;
+}
+
+.mediaCourse {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.termAndPrivacyCourse {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
+    gap: 5em;
+}
+
+.termCourse {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
+
+.privacyCourse {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
+
+.copyrigthCourse {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 0 2em;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
     color: #39374D;
 }
