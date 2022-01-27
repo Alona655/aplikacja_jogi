@@ -81,6 +81,9 @@ a {
 .contentActivity {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 3em;
+    padding: 0 0 14em;
 }
 
 .perWeek {
@@ -93,7 +96,7 @@ a {
 
 .conteinerActivityPage {
     display: inline;
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
@@ -114,8 +117,139 @@ a {
     color: #C3ACFA;
 }
 
+.contentActivity {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-/*style=*/
-/*background-image: url(&quot;public/imgActivity/activity.svg&quot;);*/
-/*background-repeat: no-repeat;*/
-/*background-position-x: right;*/
+.perMonth {
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 30px 0;
+    box-shadow: -5px 5px 30px rgba(0, 0, 0, 0.25);
+}
+
+.countPerMonth {
+    font-family: Comfortaa;
+    font-weight: bold;
+    display: flex;
+    font-size: 24px;
+    color: #000000;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titlePerMonth {
+    font-family: Comfortaa;
+    font-weight: bold;
+    font-size: 64px;
+    color: #C3ACFA;
+}
+
+/*------------------------------------------------*/
+
+
+.titleFooterActivity {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 85px;
+    color: #39374D;
+    padding: 2em 0 0;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.contactsActivity {
+    display: grid;
+    gap: 4em;
+    justify-content: center;
+    grid-template-columns: 20% 10% 20%;
+}
+
+.profileActivity {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #39374D;
+    text-align: center;
+}
+
+.aboutUsActivity {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #39374D;
+}
+
+.contactsActivity_1 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #39374D;
+    margin-bottom: 1em;
+}
+
+.mediaActivity {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.termAndPrivacyActivity {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
+    gap: 5em;
+}
+
+.termActivity {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
+
+.privacyActivity {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
+
+.copyrigthActivity {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 0 2em;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
