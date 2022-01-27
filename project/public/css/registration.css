@@ -28,6 +28,12 @@ a {
     text-transform: uppercase;
 }
 
+.girlReg {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
 .tableRegPage {
     width: content-box;
     display: grid;
@@ -262,6 +268,8 @@ input.password-conteiner-formRegPage[type=password] {
     justify-content: center;
     margin-bottom: 3em;
 }
+
+/*-----------------------------------------------*/
 
 footer {
     max-width: 1140px;

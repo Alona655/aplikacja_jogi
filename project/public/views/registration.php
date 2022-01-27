@@ -12,6 +12,7 @@
             <p>yoga</p>
         </div>
     </header>
+    <div class="girlReg"><img src="public/imgRegistration/girlRegPage.svg"></div>
     <div class="tableRegPage">
         <p class="titleTable">Zarejestruj się</p>
         <div class="formTable">

@@ -5,7 +5,12 @@
     <title>Settings</title>
 </head>
 
-<body>
+<body style="
+    background-image: url(public/imgSettings/backgroundTopSettings.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 55%;
+">
 <main>
     <header>
         <div class="logoSettings">
@@ -38,11 +43,38 @@
     <div class="buttonChangePasswordSettings">
         <button class="textButtonChangePasswordSettings">Zmień</button>
     </div>
-
     <div class="buttonDeleteProfileSettings">
         <button class="textButtonDeleteProfileSettings">Usuń profil</button>
     </div>
-
-
 </main>
+
+<footer>
+    <div class="titleFooterSettings">
+        <p>yoga</p>
+    </div>
+    <div class="contactsSettings">
+        <div class="profileSettings">
+            <a>Mój profil</a>
+        </div>
+        <div class="aboutUsSettings">
+            <a>O nas</a>
+        </div>
+        <div class="contactsSettings_1">
+            <a>Kontakty</a>
+        </div>
+    </div>
+    <div class="mediaSettings">
+        <img src="facebookBlock7.svg">
+        <img src="instagramBlock7.svg">
+        <img src="viberBlock7.svg">
+        <img src="twitterBlock7.svg">
+    </div>
+    <div class="termAndPrivacySettings">
+        <p class="termSettings">Terms & Conditions</p>
+        <p class="privacySettings">Privacy Policy</p>
+    </div>
+    <p class="copyrigthSettings">Copyrigth © 2020 Flaunter, Ltd. All rights reserved. Site credit.</p>
+
+</footer>
+
 </body>
