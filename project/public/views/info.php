@@ -43,14 +43,10 @@
     <section>
         <div class="block2">
             <div class="contentBlock2">
-                <div class="titleBlock2">
-                    <h2>O naszych programach szkoleniowych</h2>
-                </div>
-                <div class="textBlock2">
-                    <p>Lekcje są przeznaczone dla różnych poziomów sprawności fizycznej i są odpowiednie zarówno dla
+                <h1 class="titleBlock2">O naszych programach szkoleniowych</h1>
+                <p class="textBlock2">Lekcje są przeznaczone dla różnych poziomów sprawności fizycznej i są odpowiednie zarówno dla
                         początkujących, jak i profesjonalistów. Czas trwania każdej lekcji wynosi od 15 do 60 minut.
                         Żadne treningi nie wymagają dodatkowego sprzętu.</p>
-                </div>
             </div>
             <div class="imgBlock2">
                 <img src="public/img/girlOnBlock2.svg">
@@ -60,9 +56,7 @@
 
     <section>
         <div class="block3">
-            <div class="titleBlock3">
-                <h2>Powody, dla których warto ćwiczyć jogę</h2>
-            </div>
+            <h1 class="titleBlock3">Powody, dla których warto ćwiczyć jogę</h1>
             <div class="notesBlock3">
                 <div class="note1">
                     <div class="imgNote1">
@@ -111,18 +105,12 @@
     <section>
         <div class="block4">
             <div class="contentBlock4">
-                <div class="titleBlock4">
-                    <h2>O naszych programach szkoleniowych</h2>
-                </div>
-                <div class="textBlock4">
-                    <p>Lekcje są przeznaczone dla różnych poziomów sprawności fizycznej i są odpowiednie zarówno dla 
+                <h1 class="titleBlock4">O naszych programach szkoleniowych</h1>
+                <p class="textBlock4">Lekcje są przeznaczone dla różnych poziomów sprawności fizycznej i są odpowiednie zarówno dla
                         początkujących, jak i profesjonalistów. Czas trwania każdej lekcji wynosi od 15 do 60 minut. 
                         Żadne treningi nie wymagają dodatkowego sprzętu.</p>
-                </div>
                 <div class="buttonBlock4">
-                    <a class="buttonMain4" href="">
-                        <p class="textButtonBlock4">WYPROBUJ ZA DARMO</p>
-                    </a>
+                    <button class="textButtonBlock4">WYPROBUJ ZA DARMO</button>
                 </div>
             </div>
             <div class="imgBlock4">
@@ -134,9 +122,7 @@
     <section>
         <div class="block5">
             <div class="contentBlock5">
-                <div class="titleBlock5">
-                    <h2>Wybierz swoją subscrybcję</h2>
-                </div>
+                <h1 class="titleBlock5">Wybierz swoją subscrybcję</h1>
                 <div class="pricesBlock5">
                     <div class="firstPriceBlock">
                         <div class="termFirstPrice">
