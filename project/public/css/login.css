@@ -32,12 +32,15 @@ a {
 
 .table {
     width: 43.5em;;
-    height: 38em;
-    left: 205px;
-    top: 281px;
+    height: 39em;
     border-radius: 30px 0;
     background: #ffffff;
     box-shadow: -5px 5px 30px rgba(0, 0, 0, 0.25);
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
 }
 
 .titleLoginPage {
@@ -123,9 +126,7 @@ input[type=password] {
     text-align: center;
     font-weight: normal;
     font-size: 24px;
-    line-height: 10px;
     color: #39374D;
-    margin-bottom: -0.5em;
 }
 
 .infoAndLinks {

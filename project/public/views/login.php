@@ -19,18 +19,26 @@
                         <p>Zaloguj się</p>
                     </div>
                     <form class="loginFormLogPage" action="login" method="POST">
-                    <div class="emailLoginPage">
-                        <div class="login-conteinerLoginPage">
-                            <input class="login-conteiner-formLoginPage" type="email" size="30" placeholder="email@email.pl">
+                        <div class="messages">
+                            <?php if (isset($messages)) {
+                                foreach ($messages as $message) {
+                                    echo $message;
+                                }
+                            }
+                            ?>
                         </div>
-                    </div>
-                    <div class="passwordLoginPage">
-                        <div class="password-conteinerLoginPage">
-                            <input class="password-conteiner-formLoginPage" type="password" size="30" placeholder="Password">
+                        <div class="emailLoginPage">
+                            <div class="login-conteinerLoginPage">
+                                <input class="login-conteiner-formLoginPage" type="email" size="30" placeholder="email@email.pl">
+                            </div>
                         </div>
-                    </div>
+                        <div class="passwordLoginPage">
+                            <div class="password-conteinerLoginPage">
+                                <input class="password-conteiner-formLoginPage" type="password" size="30" placeholder="Password">
+                            </div>
+                        </div>
                         <div class="buttonLoginPage">
-                            <button class="textButtonLogin">log in</button>
+                               <button class="textButtonLogin">log in</button>
                         </div>
                     </form>
                     <div class="infoAndLinks">
@@ -42,7 +50,7 @@
                             <img src="public/imgLoginPage/facebook.svg">
                         </div>
                         <div class="registrationLoginPage">
-                            <p class="konto"><span class="registration">Nie masz konta? </span>Zarejestruj się</p>
+                            <a class="konto"><span class="registration">Nie masz konta? </span>Zarejestruj się</a>
                         </div>
                     </div>
                 </div>
