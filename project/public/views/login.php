@@ -18,7 +18,7 @@
                     <div class="titleLoginPage">
                         <p>Zaloguj się</p>
                     </div>
-                    <form class="loginFormLogPage" action="login" method="POST">
+                    <form class="login" action="login" method="POST">
                         <div class="messages">
                             <?php if (isset($messages)) {
                                 foreach ($messages as $message) {
