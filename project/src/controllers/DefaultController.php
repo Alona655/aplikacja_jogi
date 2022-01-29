@@ -6,11 +6,11 @@ class DefaultController extends AppController {
 
     public function index()
     {
-        $this->render('login');
+        $this->render('info');
     }
-    public function projects()
+    public function login()
     {
-        $this->render('projects');
+        $this->render('login');
     }
     public function registration()
     {
