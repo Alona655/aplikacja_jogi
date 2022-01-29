@@ -11,7 +11,7 @@ a {
 }
 
 nav{
-    gap: 10px;
+    gap: 2em;
     display: flex;
     align-items: center;
 }
@@ -36,6 +36,31 @@ nav{
     color: #39374D;
 }
 
+/*------------------------------------------------*/
+
+
+.buttonHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.textLogIn {
+    width: 100%;
+    padding: 0.6em 1.7em;
+    border-radius: 30px 0;
+    filter: drop-shadow(6px 6px 15px rgba(63, 61, 86, 0.3));
+    background: #8878AF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: PT Sans;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+/*------------------------------------------------*/
+
 .containerProfile {
     max-width: 1140px;
     margin: 0 auto;
@@ -56,15 +81,6 @@ nav{
     font-size: 64px;
     /*line-height: 85px;*/
     color: #39374D;
-}
-
-.textLogIng {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 31px;
-    color: white;
 }
 
 .content {
@@ -95,19 +111,23 @@ nav{
 }
 
 .buttonBlock1 {
+    display: flex;
+    justify-content: center;
+}
+
+.textButtonBlock1 {
+    width: 100%;
+    padding: 0.6em 1.7em;
     border-radius: 30px 0;
     filter: drop-shadow(6px 6px 15px rgba(63, 61, 86, 0.3));
     background: #8878AF;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    margin: 0 160px 0 0;
-}
-
-.textButtonBlock1 {
-    color: white;
+    text-transform: uppercase;
+    font-family: PT Sans;
     text-align: center;
-    padding: 20px;
-    margin: 0 auto;
+    color: white;
+    font-size: 24px;
 }
 
 .block2 {
@@ -248,10 +268,6 @@ nav{
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     margin: 0 0;
-}
-
-.buttonMain4 {
-    align-items: center;
 }
 
 .textButtonBlock4 {
@@ -671,10 +687,6 @@ footer {
 .media {
     text-align: -webkit-center;
     margin-top: 40px;
-}
-
-img {
-    margin-inline: 37px 30px;
 }
 
 .termAndPrivacyReg {

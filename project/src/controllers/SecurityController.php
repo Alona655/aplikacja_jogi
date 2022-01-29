@@ -7,6 +7,7 @@ class SecurityController extends AppController
 {
     public function login()
     {
+        ini_set('memory_limit','536M');
         $user = new User('jsnow@gmail.com', 'admin', 'John', 'Snow');
 
         if ($this->isPost()) {

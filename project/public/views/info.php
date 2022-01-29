@@ -18,11 +18,10 @@
                         <nav>
                             <a class="freeTrial" href="">free trial</a>
                             <div class="buttonHeader">
-                                <a class="buttonHeader" href="">
-                                    <p class="textLogIn">log in</p>
-                                </a>
+                                <button class="textLogIn">log in</button>
                             </div>
-                            <a class="burger" href=""><img src="public/img/burger.svg"></a>
+                            <a class="burger" href="" style="display: block;">
+                                <img src="public/img/burger.svg"></a>
                         </nav>
                     </div>
                 </div>
@@ -36,9 +35,7 @@
                 <p>Ulepsz swoje ciało i napełnij pozytywną energią z domowego zacisza</p>
             </div>
             <div class="buttonBlock1">
-                    <a class="buttonMain" href="">
-                        <p class="textButtonBlock1">WYPROBUJ ZA DARMO</p>
-                    </a>
+                <button class="textButtonBlock1">WYPROBUJ ZA DARMO</button>
             </div>
         </div>
     </section>
