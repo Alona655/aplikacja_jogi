@@ -1,13 +1,13 @@
 <?php
 
 require_once 'AppController.php';
-require_once __DIR__.'/../models/Login.php';
+require_once __DIR__.'/../models/User.php';
 
 class SecurityController extends AppController
 {
     public function login()
     {
-        $user = new Login('jsnow@gmail.com', 'admin');
+        $user = new User('jsnow@gmail.com', 'admin', 'Kasia', 'Brogna');
 
         if (!$this->isPost()) {
             return $this->login('login');
