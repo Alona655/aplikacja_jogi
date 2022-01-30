@@ -8,7 +8,12 @@
 
 <body>
 <main>
-    <section>
+    <section style="
+    background-image: url(public/img/girl.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 75%;
+">
             <header>
                 <div class="containerProfile">
                     <div class="logo">
@@ -28,12 +33,8 @@
             </header>
 
         <div class="content">
-            <div class="titleBlock1">
-                <h1>Programy szkoleniowe online w czasie rzeczywistym</h1>
-            </div>
-            <div class="textBlock1">
-                <p>Ulepsz swoje ciało i napełnij pozytywną energią z domowego zacisza</p>
-            </div>
+            <h1 class="titleBlock1">Programy szkoleniowe online w czasie rzeczywistym</h1>
+            <p class="textBlock1">Ulepsz swoje ciało i napełnij pozytywną energią z domowego zacisza</p>
             <div class="buttonBlock1">
                 <button class="textButtonBlock1">WYPROBUJ ZA DARMO</button>
             </div>
@@ -59,45 +60,41 @@
             <h1 class="titleBlock3">Powody, dla których warto ćwiczyć jogę</h1>
             <div class="notesBlock3">
                 <div class="note1">
-                    <div class="imgNote1">
+<!--                    <div class="imgNote1">-->
 <!--                        <img src="public/img/noteWithMoonBlock3.svg">-->
-                    </div>
-                    <div class="titleNote1">
-                        <p>Lepszy sen</p>
-                    </div>
-                    <div class="textNote1">
-                        <p>Joga zmniejsza stres, co pomaga w walce z bezsennością. Joga uczy jak odizolować umysł od
+<!--                    </div>-->
+                    <p class="titleNote1">Lepszy sen</p>
+                    <p class="textNote1">Joga zmniejsza stres, co pomaga w walce z bezsennością. Joga uczy jak odizolować umysł od
                             codziennych problemów, dzięki temu szybciej zaśniesz i nie będziesz się budził zlękniony i
                             zestresowany w środku nocy.</p>
-                    </div>
                 </div>
-                <div class="note2">
-                    <div class="titleNote2">
-                        <p>Nadaje elastyczność</p>
-                    </div>
-                    <div class="textNote2">
-                        <p>Praktyka jogi pobudzi do życia każdą możliwą część Twojego ciała. Zwiększa zakres ruchu i
-                            dodaje siły od stóp do głów. Wydłuża ścięgna, więzadła i mięśnie, w szczególności te
-                            głębokie, które na co dzień nie są w pełni używane. Ćwicząc regularnie zamiast napięć
-                            poczujesz przyjemne rozluźnienie.</p>
-                    </div>
-                    <div class="imgNote2">
-                        <img src="public/img/noteWithHumanBlock3.svg">
-                    </div>
-                </div>
-                <div class="note3">
-                    <div class="titleNote2">
-                        <p>Zwiększa odporność</p>
-                    </div>
-                    <div class="textNote2">
-                        <p>Сiało, które jest dotlenione i rozciągnięte dzięki swojej dobrej kondycji rzadziej
-                            (albo wcale!) zapada na choroby. Joga jest również naturalną terapią pomagającą w leczeniu
-                            reumatyzmu.</p>
-                    </div>
-                    <div class="imgNote2">
-                        <img src="public/img/noteWithHealth.svg">
-                    </div>
-                </div>
+<!--                <div class="note2">-->
+<!--                    <div class="titleNote2">-->
+<!--                        <p>Nadaje elastyczność</p>-->
+<!--                    </div>-->
+<!--                    <div class="textNote2">-->
+<!--                        <p>Praktyka jogi pobudzi do życia każdą możliwą część Twojego ciała. Zwiększa zakres ruchu i-->
+<!--                            dodaje siły od stóp do głów. Wydłuża ścięgna, więzadła i mięśnie, w szczególności te-->
+<!--                            głębokie, które na co dzień nie są w pełni używane. Ćwicząc regularnie zamiast napięć-->
+<!--                            poczujesz przyjemne rozluźnienie.</p>-->
+<!--                    </div>-->
+<!--                    <div class="imgNote2">-->
+<!--                        <img src="public/img/noteWithHumanBlock3.svg">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="note3">-->
+<!--                    <div class="titleNote2">-->
+<!--                        <p>Zwiększa odporność</p>-->
+<!--                    </div>-->
+<!--                    <div class="textNote2">-->
+<!--                        <p>Сiało, które jest dotlenione i rozciągnięte dzięki swojej dobrej kondycji rzadziej-->
+<!--                            (albo wcale!) zapada na choroby. Joga jest również naturalną terapią pomagającą w leczeniu-->
+<!--                            reumatyzmu.</p>-->
+<!--                    </div>-->
+<!--                    <div class="imgNote2">-->
+<!--                        <img src="public/img/noteWithHealth.svg">-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
     </section>

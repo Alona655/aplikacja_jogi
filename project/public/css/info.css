@@ -94,16 +94,16 @@ nav{
 .titleBlock1 {
     font-family: PT Serif;
     font-weight: bold;
-    font-size: 43px;
+    font-size: 64px;
+    margin: 0;
+    padding: 1.3em 0 1em;
     color: #39374D;
 }
 
 .textBlock1 {
     font-family: PT Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 31px;
     color: #39374D;
     width: 24em;
 }
@@ -134,7 +134,7 @@ nav{
     max-width: 1140px;
     margin: 0 auto;
     display: grid;
-    padding-bottom: 4em;
+    padding: 4em 0 4.5em;
     grid-template-columns: 50% 50%;
 }
 
@@ -152,11 +152,23 @@ nav{
     font-family: PT Sans;
     font-weight: normal;
     font-size: 26px;
+    margin: 0;
+    padding-top: 0.4em;
     text-align: center;
     color: #39374D;
 }
 
 /*------------------------------------------------------------*/
+
+.titleBlock3 {
+    font-family: PT Serif;
+    font-weight: bold;
+    font-size: 54px;
+    padding: 1.3em 0 1.5em;
+    margin: 0;
+    text-align: center;
+    color: #39374D;
+}
 
 .notesBlock3 {
     display: grid;
@@ -171,16 +183,6 @@ nav{
 
 .imgNote1 {
     background: url("public/img/noteWithMoonBlock3.svg");
-}
-
-.titleBlock3 {
-    font-family: PT Serif;
-    font-weight: bold;
-    font-size: 54px;
-    padding: 1em 0 1.7em;
-    margin: 0;
-    text-align: center;
-    color: #39374D;
 }
 
 .titleNote1 {
