@@ -611,7 +611,7 @@ input[type=email] {
 
 footer {
     max-width: 1140px;
-    margin: 100px auto;
+    margin: 0 auto;
     justify-content: center;
 }
 
@@ -622,16 +622,17 @@ footer {
     font-size: 64px;
     line-height: 85px;
     color: #39374D;
+    padding: 2em 0 0;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 .contacts {
     display: grid;
-    justify-content: space-around;
-    grid-template-columns: 40% 20% 40%;
+    gap: 4em;
+    justify-content: center;
+    grid-template-columns: 20% 10% 20%;
 }
 
 .profile {
@@ -641,8 +642,7 @@ footer {
     font-size: 24px;
     line-height: 31px;
     color: #39374D;
-    margin-right: 5px;
-    text-align: end;
+    text-align: center;
 }
 
 .aboutUs {
@@ -661,21 +661,22 @@ footer {
     font-weight: normal;
     font-size: 24px;
     line-height: 31px;
-    text-align: start;
-    margin-left: 5px;
+    text-align: center;
     color: #39374D;
+    margin-bottom: 1em;
 }
 
 .media {
-    text-align: -webkit-center;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
 }
 
-.termAndPrivacyReg {
+.termAndPrivacy {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 1em;
-    gap: 3em;
+    justify-content: center;
+    gap: 5em;
 }
 
 .termReg {
@@ -700,6 +701,21 @@ footer {
     display: flex;
     align-items: center;
     text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #39374D;
+}
+
+.copyrights {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 0 2em;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     letter-spacing: 0.75px;
     text-transform: uppercase;
     color: #39374D;

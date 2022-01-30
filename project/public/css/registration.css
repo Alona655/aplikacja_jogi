@@ -370,7 +370,6 @@ footer {
 
 .copyrigthReg {
     font-family: PT Sans;
-    font-style: normal;
     font-weight: normal;
     padding: 0 0 2em;
     font-size: 18px;
@@ -382,4 +381,3 @@ footer {
     text-transform: uppercase;
     color: #39374D;
 }
-

@@ -183,15 +183,9 @@
         <p>yoga</p>
     </div>
     <div class="contacts">
-        <div class="profile">
-            <a>Mój profil</a>
-        </div>
-        <div class="aboutUs">
-            <a>O nas</a>
-        </div>
-        <div class="contacts_1">
-            <a>Kontakty</a>
-        </div>
+        <a class="profile">Mój profil</a>
+        <a class="aboutUs">O nas</a>
+        <a class="contacts_1">Kontakty</a>
     </div>
     <div class="media">
         <img src="facebookBlock7.svg">
