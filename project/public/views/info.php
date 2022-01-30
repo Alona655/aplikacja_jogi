@@ -34,7 +34,7 @@
                         Żadne treningi nie wymagają dodatkowego sprzętu.</p>
             </div>
             <div class="imgBlock2">
-                <img src="public/img/girlOnBlock2.svg">
+                <img src="public/img/girlOnBlock2.svg" alt="">
             </div>
         </div>
     </section>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="imgBlock4">
-                <img src="public/img/girlOnBlock4.svg">
+                <img src="public/img/girlOnBlock4.svg" alt="">
             </div>
         </div>
     </section>
@@ -145,7 +145,9 @@
                 <div class="emailAndButton">
                     <div class="email">
                         <div class="login-conteiner">
-                            <input class="login-conteiner-form" type="email" size="30" placeholder="email@email.pl">
+                            <label>
+                                <input class="login-conteiner-form" type="email" size="30" placeholder="email@email.pl">
+                            </label>
                         </div>
                     </div>
 
