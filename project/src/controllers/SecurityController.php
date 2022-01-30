@@ -24,6 +24,7 @@ class SecurityController extends AppController
             return $this->render('login', ['messages' => ['Wrong password!']]);
         }
 
+        $_POST['password-conteiner-formLoginPage'] = md5($password);
 //        return $this->render('activity');
 
         $url = "http://$_SERVER[HTTP_HOST]";
