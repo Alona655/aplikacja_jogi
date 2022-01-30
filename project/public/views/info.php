@@ -132,30 +132,20 @@
                     </div>
 
                     <div class="secondPriceBlock">
-                        <div class="termSecondPrice">
-                            <p class="oneMonth2"><span class="month2">3</span> miesiące</p>
-                        </div>
-                        <div class="price2Block">
-                            <p class="price2"><span class="amount2">120</span> PLN</p>
-                        </div>
+                       <p class="oneMonth2"><span class="month2">3</span> miesiące</p>
+                        <hr />
+                       <p class="price2"><span class="amount2">120</span> PLN</p>
                         <div class="buttonBlock5_2">
-                            <a class="buttonMain5_2" href="">
-                                <p class="textButtonBlock5_2">Wybierz</p>
-                            </a>
+                            <button class="textButtonBlock5_2">Wybierz</button>
                         </div>
                     </div>
 
                     <div class="thirdPriceBlock">
-                        <div class="termThirdPrice">
-                            <p class="oneMonth3"><span class="month3">2</span> miesiące</p>
-                        </div>
-                        <div class="price3Block">
-                            <p class="price3"><span class="amount3">120</span> PLN</p>
-                        </div>
+                        <p class="oneMonth3"><span class="month3">2</span> miesiące</p>
+                        <hr />
+                        <p class="price3"><span class="amount3">120</span> PLN</p>
                         <div class="buttonBlock5_3">
-                            <a class="buttonMain5_3" href="">
-                                <p class="textButtonBlock5_3">Wybierz</p>
-                            </a>
+                            <button class="textButtonBlock5_3">Wybierz</button>
                         </div>
                     </div>
                 </div>
