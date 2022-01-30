@@ -7,19 +7,7 @@
 
 <body>
 <main>
-    <header>
-        <div class="logoProfile">
-            <p>yoga</p>
-        </div>
-        <div class="menuProfile">
-            <nav>
-                <a class="findingCourseProfile" href="">Poszuk kursu</a>
-                <a class="aboutUsProfile" href="">O nas</a>
-                <a class="myProfileInProfile" href="">Mój Profil</a>
-                <a class="burgerProfile" href=""><img src="public/img/burger.svg"></a>
-            </nav>
-        </div>
-    </header>
+    <?php include ('header.php')?>
     <h1 class="titleProfile">Mój Profil</h1>
     <div class="contentProfile">
         <div class=""></div>

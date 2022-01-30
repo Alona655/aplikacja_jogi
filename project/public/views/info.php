@@ -14,23 +14,7 @@
     background-position-x: 80%;
     background-position-y: 75%;
 ">
-            <header>
-                <div class="containerProfile">
-                    <div class="logo">
-                        <p>yoga</p>
-                    </div>
-                    <div class="menu">
-                        <nav>
-                            <a class="freeTrial" href="">free trial</a>
-                            <div class="buttonHeader">
-                                <button class="textLogIn">log in</button>
-                            </div>
-                            <a class="burger" href="" style="display: block;">
-                                <img src="public/img/burger.svg"></a>
-                        </nav>
-                    </div>
-                </div>
-            </header>
+        <?php include ('header.php')?>
 
         <div class="content">
             <h1 class="titleBlock1">Programy szkoleniowe online w czasie rzeczywistym</h1>
