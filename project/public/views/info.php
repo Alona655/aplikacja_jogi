@@ -59,10 +59,11 @@
         <div class="block3">
             <h1 class="titleBlock3">Powody, dla których warto ćwiczyć jogę</h1>
             <div class="notesBlock3">
-                <div class="note1">
-<!--                    <div class="imgNote1">-->
-<!--                        <img src="public/img/noteWithMoonBlock3.svg">-->
-<!--                    </div>-->
+                <div class="note1" style="
+                background-image: url(public/img/noteWithMoonBlock3.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                ">
                     <p class="titleNote1">Lepszy sen</p>
                     <p class="textNote1">Joga zmniejsza stres, co pomaga w walce z bezsennością. Joga uczy jak odizolować umysł od
                             codziennych problemów, dzięki temu szybciej zaśniesz i nie będziesz się budził zlękniony i
