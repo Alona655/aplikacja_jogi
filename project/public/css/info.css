@@ -303,6 +303,10 @@ nav{
 
 /*------------------------------------------------------*/
 
+hr {
+    width: 80%;
+}
+
 .block5 {
     background: #E1D5FC;
     height: 38em;
@@ -331,14 +335,77 @@ nav{
 }
 
 .firstPriceBlock {
-    width: 300px;
-    height: 241px;
-    left: 205px;
-    top: 281px;
+    padding: 1em;
     border-radius: 30px 0;
     background: #EEEEEE;
     box-shadow: 6px 6px 20px rgba(79, 79, 79, 0.3);
 }
+
+.amount1 {
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    color: #8878AF;
+}
+
+.price1 {
+    font-family: PT Sans;
+    font-weight: normal;
+    margin: 0;
+    padding: .5em 0 .5em;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    color: #39374D;
+}
+
+.oneMonth {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+    padding: 0.7em 0 0;
+    align-items: center;
+    text-align: center;
+    color: #39374D;
+}
+
+.month1 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    color: #8878AF;
+}
+
+.buttonBlock5 {
+    display: flex;
+    text-align: center;
+    padding-bottom: 0.5em;
+    justify-content: center;
+}
+
+.textButtonBlock5 {
+    width: 100%;
+    padding: 0.6em 3.5em;
+    border-radius: 30px 0;
+    filter: drop-shadow(6px 6px 15px rgba(63, 61, 86, 0.3));
+    background: #8878AF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: PT Sans;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+/*---------------------*/
 
 .secondPriceBlock {
     width: 400px;
@@ -359,79 +426,6 @@ nav{
     border-radius: 30px 0;
     background: #EEEEEE;
     box-shadow: 6px 6px 20px rgba(79, 79, 79, 0.3);
-}
-
-.stick1 {
-    border: 0.75px solid #39374D;
-    width: 55%;
-    align-items: center;
-}
-
-.amount1 {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 47px;
-    align-items: center;
-    text-align: center;
-    color: #8878AF;
-}
-
-.price1 {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 47px;
-    align-items: center;
-    text-align: center;
-    color: #39374D;
-}
-
-.month1 {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 47px;
-    align-items: center;
-    text-align: center;
-    color: #8878AF;
-}
-
-.oneMonth {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 40px;
-    align-items: center;
-    text-align: center;
-    color: #39374D;
-}
-
-.buttonMain5 {
-    align-items: center;
-}
-
-.buttonBlock5 {
-    border-radius: 30px 0;
-    filter: drop-shadow(6px 6px 15px rgba(63, 61, 86, 0.3));
-    background: #8878AF;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    margin: 0 60px 20px;
-}
-
-.textButtonBlock5 {
-    font-family: PT Sans;
-    font-style: normal;
-    text-align: center;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 31px;
-    color: #FFFFFF;
 }
 
 .amount2 {

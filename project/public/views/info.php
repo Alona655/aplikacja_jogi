@@ -123,19 +123,14 @@
                 <h1 class="titleBlock5">Wybierz swoją subscrybcję</h1>
                 <div class="pricesBlock5">
                     <div class="firstPriceBlock">
-                        <div class="termFirstPrice">
-                            <p class="oneMonth"><span class="month1">1</span> miesiąc</p>
-                        </div>
-                        <div class="stick1"></div>
-                        <div class="price1Block">
-                            <p class="price1"><span class="amount1">50</span> PLN</p>
-                        </div>
+                        <p class="oneMonth"><span class="month1">1</span> miesiąc</p>
+                        <hr />
+                        <p class="price1"><span class="amount1">50</span> PLN</p>
                         <div class="buttonBlock5">
-                            <a class="buttonMain5" href="">
-                                <p class="textButtonBlock5">Wybierz</p>
-                            </a>
+                            <button class="textButtonBlock5">Wybierz</button>
                         </div>
                     </div>
+
                     <div class="secondPriceBlock">
                         <div class="termSecondPrice">
                             <p class="oneMonth2"><span class="month2">3</span> miesiące</p>
@@ -149,6 +144,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="thirdPriceBlock">
                         <div class="termThirdPrice">
                             <p class="oneMonth3"><span class="month3">2</span> miesiące</p>
