@@ -1,21 +1,20 @@
 <?php
 
 require_once 'AppController.php';
-require_once __DIR__.'/../models/User.php';
+require_once __DIR__.'/../models/Login.php';
 
 class SecurityController extends AppController
 {
     public function login()
     {
-        ini_set('memory_limit','536M');
-        $user = new User('jsnow@gmail.com', 'admin', 'John', 'Snow');
+        $user = new Login('jsnow@gmail.com', 'admin');
 
-        if ($this->isPost()) {
+        if (!$this->isPost()) {
             return $this->login('login');
         }
 
-        $email = $_POST["login-conteiner-formLoginPage"];
-        $password = $_POST["password-conteiner-formLoginPage"];
+        $email = $_POST['login-conteiner-formLoginPage'];
+        $password = $_POST['password-conteiner-formLoginPage'];
 
         if($user->getEmail() !== $email) {
             return $this->render('login', ['messages' => ['User with this email not exist!']]);
