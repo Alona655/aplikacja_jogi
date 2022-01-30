@@ -51,37 +51,6 @@
 
 </main>
 
-<footer style="
-    background-image: url(&quot;public/imgActivity/backgroundBellow.svg&quot;);
-    background-repeat: no-repeat;
-    background-size: contain;
-">
-    <div class="titleFooterActivity">
-        <p>yoga</p>
-    </div>
-    <div class="contactsActivity">
-        <div class="profileActivity">
-            <a>Mój profil</a>
-        </div>
-        <div class="aboutUsActivity">
-            <a>O nas</a>
-        </div>
-        <div class="contactsActivity_1">
-            <a>Kontakty</a>
-        </div>
-    </div>
-    <div class="mediaActivity">
-        <img src="facebookBlock7.svg">
-        <img src="instagramBlock7.svg">
-        <img src="viberBlock7.svg">
-        <img src="twitterBlock7.svg">
-    </div>
-    <div class="termAndPrivacyActivity">
-        <p class="termActivity">Terms & Conditions</p>
-        <p class="privacyActivity">Privacy Policy</p>
-    </div>
-    <p class="copyrigthActivity">Copyrigth © 2020 Flaunter, Ltd. All rights reserved. Site credit.</p>
-</footer>
-
+<?php include ('footer.php')?>
 
 </body>

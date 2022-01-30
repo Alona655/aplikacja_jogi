@@ -178,27 +178,5 @@
 
 </main>
 
-<footer>
-    <div class="titleFooter">
-        <p>yoga</p>
-    </div>
-    <div class="contacts">
-        <a class="profile">Mój profil</a>
-        <a class="aboutUs">O nas</a>
-        <a class="contacts_1">Kontakty</a>
-    </div>
-    <div class="media">
-        <img src="facebookBlock7.svg">
-        <img src="instagramBlock7.svg">
-        <img src="viberBlock7.svg">
-        <img src="twitterBlock7.svg">
-    </div>
-    <div class="termAndPrivacy">
-        <p class="termReg">Terms & Conditions</p>
-        <p class="privacyReg">Privacy Policy</p>
-    </div>
-    <div class="copyrights">
-        <p class="copyrigthReg">Copyrigth © 2020 Flaunter, Ltd. All rights reserved. Site credit.</p>
-    </div>
-</footer>
+<?php include ('footer.php')?>
 </body>

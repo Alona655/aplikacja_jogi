@@ -80,31 +80,5 @@
     </div>
 </main>
 
-<footer>
-    <div class="titleFooterReg">
-        <p>yoga</p>
-    </div>
-    <div class="contactsReg">
-        <div class="profileReg">
-            <a>Mój profil</a>
-        </div>
-        <div class="aboutUsReg">
-            <a>O nas</a>
-        </div>
-        <div class="contactsReg_1">
-            <a>Kontakty</a>
-        </div>
-    </div>
-    <div class="mediaReg">
-        <img src="facebookBlock7.svg">
-        <img src="instagramBlock7.svg">
-        <img src="viberBlock7.svg">
-        <img src="twitterBlock7.svg">
-    </div>
-    <div class="termAndPrivacyReg">
-        <p class="termReg">Terms & Conditions</p>
-        <p class="privacyReg">Privacy Policy</p>
-    </div>
-    <p class="copyrigthReg">Copyrigth © 2020 Flaunter, Ltd. All rights reserved. Site credit.</p>
-</footer>
+<?php include ('footer.php')?>
 </body>
