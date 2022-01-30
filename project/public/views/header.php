@@ -1,13 +1,13 @@
 <header>
-    <div class="logoSettings">
+    <div class="logo">
         <p>yoga</p>
     </div>
-    <div class="menuSettings">
-        <nav class="navSettings">
-            <a class="findingCourseSettings" href="">Poszuk kursu</a>
-            <a class="aboutUsSettings" href="">O nas</a>
-            <a class="myProfileInSettings" href="">Mój Profil</a>
-            <a class="burgerSettings" href=""><img src="public/img/burger.svg"></a>
+    <div class="menu">
+        <nav class="nav">
+            <a class="findingCourse" href="">Poszuk kursu</a>
+            <a class="aboutUs" href="">O nas</a>
+            <a class="myProfileIn" href="">Mój Profil</a>
+            <a class="burger" href=""><img src="public/img/burger.svg"></a>
         </nav>
     </div>
 </header>
