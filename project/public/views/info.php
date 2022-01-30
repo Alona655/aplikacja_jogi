@@ -157,19 +157,19 @@
     <section>
         <div class="block6">
             <div class="contentBlock6">
-                <div class="titleBlock6">
-                    <h2>Otrzymaj miesiąc bezpłatnej usługi</h2>
-                </div>
+                <h1 class="titleBlock6">Otrzymaj miesiąc bezpłatnej usługi</h1>
                 <div class="emailAndButton">
                     <div class="email">
                         <div class="login-conteiner">
                             <input class="login-conteiner-form" type="email" size="30" placeholder="email@email.pl">
                         </div>
                     </div>
+
                     <div class="buttonBlock6">
-                            <a class="buttonMain6" href="">
-                                <p class="textButtonBlock6">Wybierz</p>
-                            </a>
+                        <div class="button-conteinerBlock6">
+                            <button class="textButtonBlock6">Wybierz</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
