@@ -2,7 +2,8 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/info.css">
-    <title>INFO PAGE</title>
+    <title>Yoga</title>
+    <link rel="icon" href="public/img/yoga.ico" type="image/x-icon">
 </head>
 
 
@@ -14,23 +15,23 @@
     background-position-x: 80%;
     background-position-y: 75%;
 ">
-            <header>
-                <div class="containerProfile">
-                    <div class="logo">
-                        <p>yoga</p>
-                    </div>
-                    <div class="menu">
-                        <nav>
-                            <a class="freeTrial" href="">free trial</a>
-                            <div class="buttonHeader">
-                                <button class="textLogIn">log in</button>
-                            </div>
-                            <a class="burger" href="" style="display: block;">
-                                <img src="public/img/burger.svg"></a>
-                        </nav>
-                    </div>
+        <header>
+            <div class="containerProfile">
+                <div class="logo">
+                    <p>yoga</p>
                 </div>
-            </header>
+                <div class="menu">
+                    <nav>
+                        <a class="freeTrial" href="">free trial</a>
+                        <div class="buttonHeader">
+                            <button class="textLogIn"><a href="login">log in</a></button>
+                        </div>
+                        <a class="burger" href="" style="display: block;">
+                            <img src="public/img/burger.svg"></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
         <div class="content">
             <h1 class="titleBlock1">Programy szkoleniowe online w czasie rzeczywistym</h1>
@@ -46,8 +47,8 @@
             <div class="contentBlock2">
                 <h1 class="titleBlock2">O naszych programach szkoleniowych</h1>
                 <p class="textBlock2">Lekcje są przeznaczone dla różnych poziomów sprawności fizycznej i są odpowiednie zarówno dla
-                        początkujących, jak i profesjonalistów. Czas trwania każdej lekcji wynosi od 15 do 60 minut.
-                        Żadne treningi nie wymagają dodatkowego sprzętu.</p>
+                    początkujących, jak i profesjonalistów. Czas trwania każdej lekcji wynosi od 15 do 60 minut.
+                    Żadne treningi nie wymagają dodatkowego sprzętu.</p>
             </div>
             <div class="imgBlock2">
                 <img src="public/img/girlOnBlock2.svg">
@@ -66,36 +67,36 @@
                 ">
                     <p class="titleNote1">Lepszy sen</p>
                     <p class="textNote1">Joga zmniejsza stres, co pomaga w walce z bezsennością. Joga uczy jak odizolować umysł od
-                            codziennych problemów, dzięki temu szybciej zaśniesz i nie będziesz się budził zlękniony i
-                            zestresowany w środku nocy.</p>
+                        codziennych problemów, dzięki temu szybciej zaśniesz i nie będziesz się budził zlękniony i
+                        zestresowany w środku nocy.</p>
                 </div>
-<!--                <div class="note2">-->
-<!--                    <div class="titleNote2">-->
-<!--                        <p>Nadaje elastyczność</p>-->
-<!--                    </div>-->
-<!--                    <div class="textNote2">-->
-<!--                        <p>Praktyka jogi pobudzi do życia każdą możliwą część Twojego ciała. Zwiększa zakres ruchu i-->
-<!--                            dodaje siły od stóp do głów. Wydłuża ścięgna, więzadła i mięśnie, w szczególności te-->
-<!--                            głębokie, które na co dzień nie są w pełni używane. Ćwicząc regularnie zamiast napięć-->
-<!--                            poczujesz przyjemne rozluźnienie.</p>-->
-<!--                    </div>-->
-<!--                    <div class="imgNote2">-->
-<!--                        <img src="public/img/noteWithHumanBlock3.svg">-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="note3">-->
-<!--                    <div class="titleNote2">-->
-<!--                        <p>Zwiększa odporność</p>-->
-<!--                    </div>-->
-<!--                    <div class="textNote2">-->
-<!--                        <p>Сiało, które jest dotlenione i rozciągnięte dzięki swojej dobrej kondycji rzadziej-->
-<!--                            (albo wcale!) zapada na choroby. Joga jest również naturalną terapią pomagającą w leczeniu-->
-<!--                            reumatyzmu.</p>-->
-<!--                    </div>-->
-<!--                    <div class="imgNote2">-->
-<!--                        <img src="public/img/noteWithHealth.svg">-->
-<!--                    </div>-->
-<!--                </div>-->
+                <!--                <div class="note2">-->
+                <!--                    <div class="titleNote2">-->
+                <!--                        <p>Nadaje elastyczność</p>-->
+                <!--                    </div>-->
+                <!--                    <div class="textNote2">-->
+                <!--                        <p>Praktyka jogi pobudzi do życia każdą możliwą część Twojego ciała. Zwiększa zakres ruchu i-->
+                <!--                            dodaje siły od stóp do głów. Wydłuża ścięgna, więzadła i mięśnie, w szczególności te-->
+                <!--                            głębokie, które na co dzień nie są w pełni używane. Ćwicząc regularnie zamiast napięć-->
+                <!--                            poczujesz przyjemne rozluźnienie.</p>-->
+                <!--                    </div>-->
+                <!--                    <div class="imgNote2">-->
+                <!--                        <img src="public/img/noteWithHumanBlock3.svg">-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                <div class="note3">-->
+                <!--                    <div class="titleNote2">-->
+                <!--                        <p>Zwiększa odporność</p>-->
+                <!--                    </div>-->
+                <!--                    <div class="textNote2">-->
+                <!--                        <p>Сiało, które jest dotlenione i rozciągnięte dzięki swojej dobrej kondycji rzadziej-->
+                <!--                            (albo wcale!) zapada na choroby. Joga jest również naturalną terapią pomagającą w leczeniu-->
+                <!--                            reumatyzmu.</p>-->
+                <!--                    </div>-->
+                <!--                    <div class="imgNote2">-->
+                <!--                        <img src="public/img/noteWithHealth.svg">-->
+                <!--                    </div>-->
+                <!--                </div>-->
             </div>
         </div>
     </section>
@@ -105,8 +106,8 @@
             <div class="contentBlock4">
                 <h1 class="titleBlock4">O naszych programach szkoleniowych</h1>
                 <p class="textBlock4">Lekcje są przeznaczone dla różnych poziomów sprawności fizycznej i są odpowiednie zarówno dla
-                        początkujących, jak i profesjonalistów. Czas trwania każdej lekcji wynosi od 15 do 60 minut. 
-                        Żadne treningi nie wymagają dodatkowego sprzętu.</p>
+                    początkujących, jak i profesjonalistów. Czas trwania każdej lekcji wynosi od 15 do 60 minut.
+                    Żadne treningi nie wymagają dodatkowego sprzętu.</p>
                 <div class="buttonBlock4">
                     <button class="textButtonBlock4">WYPROBUJ ZA DARMO</button>
                 </div>
@@ -132,9 +133,9 @@
                     </div>
 
                     <div class="secondPriceBlock">
-                       <p class="oneMonth2"><span class="month2">3</span> miesiące</p>
+                        <p class="oneMonth2"><span class="month2">3</span> miesiące</p>
                         <hr />
-                       <p class="price2"><span class="amount2">120</span> PLN</p>
+                        <p class="price2"><span class="amount2">120</span> PLN</p>
                         <div class="buttonBlock5_2">
                             <button class="textButtonBlock5_2">Wybierz</button>
                         </div>
