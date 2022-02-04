@@ -32,7 +32,6 @@
         </div>
     </form>
 
-
     <button class="textButtonLogin toSettings"><a href="settings">Ustawienia</a> </button>
 
 </main>

@@ -70,6 +70,7 @@
                         codziennych problemów, dzięki temu szybciej zaśniesz i nie będziesz się budził zlękniony i
                         zestresowany w środku nocy.</p>
                 </div>
+
                 <!--                <div class="note2">-->
                 <!--                    <div class="titleNote2">-->
                 <!--                        <p>Nadaje elastyczność</p>-->

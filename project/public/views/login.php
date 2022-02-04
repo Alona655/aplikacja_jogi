@@ -14,6 +14,7 @@
                 <p>yoga</p>
             </div>
         </header>
+
         <div class="contentLoginPage">
             <div class="table">
                 <div class="titleLoginPage">

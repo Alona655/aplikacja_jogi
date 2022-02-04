@@ -5,6 +5,7 @@
         <a class="aboutUsSettings">O nas</a>
         <a class="contactsSettings_1">Kontakty</a>
     </div>
+
     <div class="mediaSettings">
         <img src="public/img/facebookBlock7.svg">
         <img src="public/img/instagramBlock7.svg">

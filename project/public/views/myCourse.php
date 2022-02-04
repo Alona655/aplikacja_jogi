@@ -69,7 +69,6 @@
     <img src=https://img.youtube.com/vi/gXuq4M5rU9E/hqdefault.jpg alt='Demo video'>
     <span>▶</span>
     </a>"
-
                     title="YouTube video player" frameborder="0" allow="accelerometer;
                     autoplay;
                     clipboard-write;

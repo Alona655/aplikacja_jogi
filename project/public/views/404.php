@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="public/css/404.css">
     <title>404</title>
 </head>
+
 <body>
 <main>
     <div id="background"></div>

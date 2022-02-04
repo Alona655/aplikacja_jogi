@@ -50,7 +50,6 @@
             <button class="textButtonDeleteProfileSettings">Usuń profil</button>
         </div>
     </form>
-
 </main>
 
 <?php include ('footer.php')?>
