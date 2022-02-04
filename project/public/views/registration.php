@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/registration.css">
+    <link rel="stylesheet" type="text/css" href="public/css/footer.css">
     <title>Registration page</title>
 </head>
 

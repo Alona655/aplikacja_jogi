@@ -24,10 +24,6 @@ class DefaultController extends AppController {
     {
         $this->render('activity');
     }
-    public function myCourseList()
-    {
-        $this->render('myCourseList');
-    }
     public function myCourse()
     {
         $this->render('myCourse');

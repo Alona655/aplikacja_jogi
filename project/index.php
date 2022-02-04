@@ -12,7 +12,6 @@ Router::get('registration', 'DefaultController');
 Router::get('info', 'DefaultController');
 Router::get('profile', 'DefaultController');
 Router::get('activity', 'DefaultController');
-Router::get('myCourseList', 'DefaultController');
 Router::get('myCourse', 'DefaultController');
 Router::get('search', 'DefaultController');
 Router::get('settings', 'DefaultController');

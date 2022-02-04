@@ -2,6 +2,8 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/activity.css">
+    <link rel="stylesheet" type="text/css" href="public/css/header.css">
+    <link rel="stylesheet" type="text/css" href="public/css/footer.css">
     <title>Activity</title>
 </head>
 
@@ -11,19 +13,7 @@
     background-size: contain;
 ">
 <main>
-    <header>
-    <div class="logoActivity">
-        <p>yoga</p>
-    </div>
-    <div class="menuActivity">
-        <nav class="navActivity">
-            <a class="findingCourseActivity" href="">Poszuk kursu</a>
-            <a class="aboutUsActivity" href="">O nas</a>
-            <a class="myProfileInActivity" href="">Mój Profil</a>
-            <a class="burgerActivity" href=""><img src="public/img/burger.svg"></a>
-        </nav>
-    </div>
-    </header>
+    <?php include ('header.php')?>
     <h1 class="titleActivity">Moja aktywność</h1>
     <div class="contentActivity">
         <div class="perWeek" style="
