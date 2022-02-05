@@ -88,6 +88,70 @@ class UserRepository extends Repository
         return $createUuid;
     }
 
+    public function updateInfoUser(string $uuid, array $data)
+    {
+        $stmt = $this->database->prepare('
+           UPDATE `user_info` SET `user_name` = :user_name,`user_surname` = :user_surname,
+                                  `birthday` = :birthday, `weight` = :weight,
+                                  `growth` = :growth, `exercises` = :exercises
+                                   WHERE `uuid` = :uuid
+        ');
+        $stmt->bindParam(':uuid', $uuid, PDO::PARAM_STR);
+        $stmt->bindParam(':user_name', $data['user_name'], PDO::PARAM_STR);
+        $stmt->bindParam(':user_surname', $data['user_surname'], PDO::PARAM_STR);
+        $stmt->bindParam(':birthday', $data['birthday'], PDO::PARAM_STR);
+        $stmt->bindParam(':weight', $data['weight'], PDO::PARAM_STR);
+        $stmt->bindParam(':growth', $data['growth'], PDO::PARAM_STR);
+        $stmt->bindParam(':exercises', $data['exercises'], PDO::PARAM_STR);
+
+        $stmt->execute();
+    }
+
+    public function updateUserPassword (string $uuid,string $newPassword)
+    {
+        $stmt = $this->database->prepare('
+           UPDATE `users` SET `password` = :password WHERE `uuid` = :uuid
+           ');
+        $stmt->bindParam(':password', $newPassword, PDO::PARAM_STR);
+        $stmt->bindParam(':uuid', $uuid, PDO::PARAM_STR);
+
+        $stmt->execute();
+    }
+
+    public function deleteUserByUuid (string $uuid)
+    {
+        $stmt = $this->database->prepare('
+            DELETE FROM `users` WHERE `uuid` = :uuid
+        ');
+        $stmt->bindParam(':uuid', $uuid, PDO::PARAM_STR);
+        $stmt->execute();
+
+        $stmtInfo = $this->database->prepare('
+            DELETE FROM `user_info` WHERE `uuid` = :uuid
+        ');
+        $stmtInfo->bindParam(':uuid', $uuid, PDO::PARAM_STR);
+        $stmtInfo->execute();
+
+    }
+
+    private function createInfoUser(array $data, string $userUuid)
+    {
+        $stmt = $this->database->prepare('
+            INSERT INTO  `user_info` (`uuid`,`user_name`,`user_surname`,`birthday`,`weight`,`growth`,`exercises`,`sex`)
+                VALUE (:uuid, :user_name, :user_surname, :birthday, :weight, :growth, :exercises, :sex)
+        ');
+        $stmt->bindParam(':uuid', $userUuid, PDO::PARAM_STR);
+        $stmt->bindParam(':user_name', $data['name'], PDO::PARAM_STR);
+        $stmt->bindParam(':user_surname', $data['surname'], PDO::PARAM_STR);
+        $stmt->bindParam(':birthday', $data['birthday'], PDO::PARAM_STR);
+        $stmt->bindParam(':weight', $data['weight'], PDO::PARAM_STR);
+        $stmt->bindParam(':growth', $data['growth'], PDO::PARAM_STR);
+        $stmt->bindParam(':exercises', $data['exercises'], PDO::PARAM_STR);
+        $stmt->bindParam(':sex', $data['sex'], PDO::PARAM_STR);
+
+        $stmt->execute();
+    }
+
 //    public function getUser(string $email): ?User
 //    {
 //        $stmt = $this->database->connect()->prepare('
