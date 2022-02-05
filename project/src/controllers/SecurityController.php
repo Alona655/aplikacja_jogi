@@ -3,6 +3,7 @@
 require_once 'AppController.php';
 require_once __DIR__.'/../models/User.php';
 require_once __DIR__.'/../repository/UserRepository.php';
+require_once __DIR__.'/../repository/ErrorCodes.php';
 
 class SecurityController extends AppController
 {
@@ -11,32 +12,56 @@ class SecurityController extends AppController
         $userRepository = new UserRepository();
 
         if (!$this->isPost()) {
-            return $this->login('login');
+            return $this->render('login');
         }
 
-        $email = $_POST['login-conteiner-formLoginPage'];
-        $password = $_POST['password-conteiner-formLoginPage'];
+        $email = $_POST['email'];
+        $password = md5($_POST['password']);
 
-        $user = $userRepository->getUser($email);
+        $user = $userRepository->findUserByEmail($email);
 
         if (!$user) {
-            return $this->render('login', ['messages' => ['User not exist!']]);
+            return $this->render('login', ErrorCodes::USER_NOT_EXIST);
         }
 
         if($user->getEmail() !== $email) {
-            return $this->render('login', ['messages' => ['User with this email not exist!']]);
+            return $this->render('login', ErrorCodes::EMAIL_NOT_EXIST);
         }
 
         if ($user->getPassword() !== $password) {
-            return $this->render('login', ['messages' => ['Wrong password!']]);
+            return $this->render('login', ErrorCodes::WRONG_PASSWORD);
         }
+        $_SESSION['user'] = $user->getUuid();
 
-        $_POST['password-conteiner-formLoginPage'] = md5($password);
-//        return $this->render('activity');
+        $this->locateReturn('activity');
+    }
 
+    public function logOut ()
+    {
+        session_destroy();
+        $this->locateReturn();
+    }
+
+    private function locateReturn (string $page = null)
+    {
         $url = "http://$_SERVER[HTTP_HOST]";
-        header("Location: {$url}/activity");
+
+        if(is_null($page)){
+            header("Location: {$url}/");
+            exit;
+        }
+        header("Location: {$url}/{$page}");
         exit;
+    }
+
+    public function validateFields ($data) : bool
+    {
+        foreach ($data as $datum){
+            if($datum == '') {
+                return false;
+            }
+        }
+        return true;
     }
 
 

@@ -6,6 +6,10 @@ class DefaultController extends AppController {
 
     public function index()
     {
+        $this->render('info');
+    }
+    public function login()
+    {
         $this->render('login');
     }
     public function info()
@@ -24,6 +28,10 @@ class DefaultController extends AppController {
     {
         $this->render('activity');
     }
+    public function myCourseList()
+    {
+        $this->render('myCourseList');
+    }
     public function myCourse()
     {
         $this->render('myCourse');
@@ -35,6 +43,10 @@ class DefaultController extends AppController {
     public function settings()
     {
         $this->render('settings');
+    }
+    public function errorPage()
+    {
+        $this->render('404');
     }
 
 }

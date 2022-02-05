@@ -21,6 +21,7 @@ class AppController {
 
     protected function render(string $template = null, array $variables = [])
     {
+        session_start();
         $templatePath = 'public/views/'. $template.'.php';
         $output = 'File not found';
                 
