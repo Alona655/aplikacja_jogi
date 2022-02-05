@@ -3,16 +3,14 @@
 class User {
     private $email;
     private $password;
-    private $name;
-    private $surname;
+    private $uuid;
 
 
-    public function __construct(string $email, string $password, string $name, string $surname)
+    public function __construct(string $email, string $password, string $uuid = '')
     {
         $this->email = $email;
         $this->password = $password;
-        $this->name = $name;
-        $this->surname = $surname;
+        $this->uuid = $uuid;
     }
 
     public function getEmail(): string
@@ -35,24 +33,22 @@ class User {
         $this->password = $password;
     }
 
-    public function getName(): string
+    public function getUuid(): string
     {
-        return $this->name;
+        return $this->uuid;
     }
 
-    public function setName(string $name): void
+    public function setUuid() : string
     {
-        $this->name = $name;
-    }
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $randomString = '';
 
-    public function getSurname(): string
-    {
-        return $this->surname;
-    }
+        for ($i = 0; $i < 10; $i++) {
+            $index = rand(0, strlen($characters) - 1);
+            $randomString .= $characters[$index];
+        }
 
-    public function setSurname(string $surname): void
-    {
-        $this->surname = $surname;
+        return $randomString;
     }
 
 }
