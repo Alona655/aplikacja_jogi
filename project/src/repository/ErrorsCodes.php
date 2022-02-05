@@ -13,4 +13,13 @@ class ErrorsCodes {
     public const USER_NOT_EXIST = [
         'message' => ['User not exist!']
     ];
+    public const EMAIL_NOT_EXIST = [
+        'message' => ['User with this email not exist!']
+    ];
+    public const WRONG_PASSWORD = [
+        'message' => ['Wrong password!']
+    ];
+    public const SAME_PASSWORD = [
+        'message' => ['The password must not be the same as the current password!']
+    ];
 }
