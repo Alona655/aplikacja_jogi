@@ -20,6 +20,102 @@ a {
     text-decoration: none;
 }
 
+.logoProfile {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: #39374D;
+    text-transform: uppercase;
+}
+
+nav{
+    gap: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.menuProfile {
+    justify-self: end;
+    text-align: left;
+}
+
+.findingCourseProfile {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+.textButtonLogin.toSettings{
+    width: 25%;
+    margin: -19% 45% 80% 0;
+}
+input {
+    width: 60%;
+    margin-left: 90%;
+    background-color: transparent;
+    font-size: larger;
+    border: none;
+}
+input:focus-visible{
+    border: none;
+    outline:none;
+
+}
+.buttonLoginPage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.textButtonLogin {
+    width: 100%;
+    padding: 1em;
+    border-radius: 30px 0;
+    filter: drop-shadow(6px 6px 15px rgba(63, 61, 86, 0.3));
+    background: #8878AF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: PT Sans;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.textUnderButtonLoginPage {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+.aboutUsProfile {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.myProfileInProfile {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #39374D;
+}
+
+.burgerProfile {
+    display: block;
+}
+
 /*-----------------------------------------*/
 
 .titleProfile {
@@ -37,13 +133,13 @@ a {
 }
 
 .name-conteinerProfilePage {
-    width: 100%;
+    width: 70%;
     display: grid;
     grid-template-columns: 20% 80%;
 }
 
 .nameProfilePage {
-    width: 90%;
+    width: 70%;
     border-radius: 30px 0;
     padding: 0 2em;
     border: 2px solid #8878AF;

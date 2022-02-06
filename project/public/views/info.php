@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/info.css">
+    <link rel="stylesheet" type="text/css" href="public/css/footer.css">
     <title>Yoga</title>
     <link rel="icon" href="public/img/yoga.ico" type="image/x-icon">
 </head>

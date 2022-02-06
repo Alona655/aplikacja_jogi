@@ -3,6 +3,8 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/myCourse.css">
+    <link rel="stylesheet" type="text/css" href="public/css/header.css">
+    <link rel="stylesheet" type="text/css" href="public/css/footer.css">
     <?php include ('linkToPage.php')?>
 </head>
 
