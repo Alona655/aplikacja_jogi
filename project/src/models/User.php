@@ -11,6 +11,7 @@ class User {
         $this->email = $email;
         $this->password = $password;
         $this->uuid = $uuid;
+
     }
 
     public function getEmail(): string
@@ -18,19 +19,10 @@ class User {
         return $this->email;
     }
 
-    public function setEmail(string $email): void
-    {
-        $this->email = $email;
-    }
 
     public function getPassword(): string
     {
         return $this->password;
-    }
-
-   public function setPassword(string $password): void
-    {
-        $this->password = $password;
     }
 
     public function getUuid(): string
@@ -50,5 +42,4 @@ class User {
 
         return $randomString;
     }
-
 }

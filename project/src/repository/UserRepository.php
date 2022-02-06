@@ -1,11 +1,15 @@
 <?php
 
 require_once 'Repository.php';
-require_once __DIR__.'/../models/User.php';
+require_once __DIR__ . '/../models/User.php';
 require_once __DIR__ . '/../models/UserInfo.php';
 
 class UserRepository extends Repository
 {
+    /**
+     * @param string $email
+     * @return User|null
+     */
     public function findUserByEmail(string $email): ?User
     {
         $stmt = $this->database->prepare('
@@ -28,6 +32,10 @@ class UserRepository extends Repository
         );
     }
 
+    /**
+     * @param string $uuid
+     * @return User|null
+     */
     public function findUserByUuid(string $uuid): ?User
     {
         $stmt = $this->database->prepare('
@@ -49,6 +57,10 @@ class UserRepository extends Repository
         );
     }
 
+    /**
+     * @param $userUuid
+     * @return mixed|null
+     */
     public function getInfoUserByUuid($userUuid)
     {
         $stmt = $this->database->prepare('
@@ -66,6 +78,10 @@ class UserRepository extends Repository
         return $user;
     }
 
+    /**
+     * @param array $data
+     * @return string
+     */
     public function createUser(array $data): string
 
     {
@@ -88,6 +104,10 @@ class UserRepository extends Repository
         return $createUuid;
     }
 
+    /**
+     * @param string $uuid
+     * @param array $data
+     */
     public function updateInfoUser(string $uuid, array $data)
     {
         $stmt = $this->database->prepare('
@@ -107,6 +127,10 @@ class UserRepository extends Repository
         $stmt->execute();
     }
 
+    /**
+     * @param string $uuid
+     * @param string $newPassword
+     */
     public function updateUserPassword (string $uuid,string $newPassword)
     {
         $stmt = $this->database->prepare('
@@ -134,6 +158,10 @@ class UserRepository extends Repository
 
     }
 
+    /**
+     * @param array $data
+     * @param string $userUuid
+     */
     private function createInfoUser(array $data, string $userUuid)
     {
         $stmt = $this->database->prepare('
@@ -151,29 +179,4 @@ class UserRepository extends Repository
 
         $stmt->execute();
     }
-
-//    public function getUser(string $email): ?User
-//    {
-//        $stmt = $this->database->connect()->prepare('
-//            SELECT * FROM public.users WHERE email = :email
-//        ');
-//
-//        $stmt->bindParam(':email', $email, PDO::PARAM_STR);
-//        $stmt->execute();
-//
-//        $user = $stmt->fetch(PDO::FETCH_ASSOC);
-//
-//        if ($user == false) {
-//            return null;
-//        }
-//
-//        return new User(
-//            $user['email'],
-//            $user['password'],
-//            $user['name'],
-//            $user['surname']
-//        );
-//    }
-
-
 }

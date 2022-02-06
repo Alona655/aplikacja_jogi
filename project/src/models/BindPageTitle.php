@@ -37,4 +37,5 @@ class BindPageTitle
     {
         $this->name_page = $name_page;
     }
+
 }

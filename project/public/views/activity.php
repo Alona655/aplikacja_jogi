@@ -1,6 +1,8 @@
+<?php include ('userInfo.php')?>
 <!DOCTYPE html>
 
 <head>
+    <?php include ('linkToPage.php')?>
     <link rel="stylesheet" type="text/css" href="public/css/activity.css">
     <link rel="stylesheet" type="text/css" href="public/css/header.css">
     <link rel="stylesheet" type="text/css" href="public/css/footer.css">
@@ -12,8 +14,8 @@
     background-repeat: no-repeat;
     background-size: contain;
 ">
+<?php include ('header.php')?>
 <main>
-    <?php include ('header.php')?>
     <h1 class="titleActivity">Moja aktywność</h1>
     <div class="contentActivity">
         <div class="perWeek" style="
@@ -38,9 +40,6 @@
             <form class="calendarActivity"></form>
         </div>
     </div>
-
 </main>
-
 <?php include ('footer.php')?>
-
 </body>
