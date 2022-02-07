@@ -22,3 +22,31 @@ function send_form() {
     });
 }
 
+function onload() {
+    jQuery.extend({
+        getResult: function () {
+            var result = null;
+            $.ajax({
+                url: 'http://hello.loc:8085/searchInfo',
+                type: 'post',
+                dataType: 'json',
+                async: false,
+                success: function (data) {
+                    result = data;
+                }
+            });
+            return result;
+
+        }
+    });
+    window.result = $.getResult();
+    document.addEventListener("DOMContentLoaded", function (event) {
+        for (let i = 0; i < result.list.length; i++) {
+            blockToList(result.list[i].url, result.list[i].preview_image, result.list[i].title, result.list[i].rating)
+
+        }
+        for (let i = 0; i < result.categories.length; i++) {
+            searchList(result.categories[i].id, result.categories[i].name, result.categories[i].checked)
+        }
+    });
+}
