@@ -4,8 +4,6 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/settings.css">
-    <link rel="stylesheet" type="text/css" href="public/css/header.css">
-    <link rel="stylesheet" type="text/css" href="public/css/footer.css">
     <?php include ('linkToPage.php')?>
 </head>
 
@@ -52,6 +50,7 @@
             <button class="textButtonDeleteProfileSettings">Usuń profil</button>
         </div>
     </form>
+
 </main>
 
 <?php include ('footer.php')?>
