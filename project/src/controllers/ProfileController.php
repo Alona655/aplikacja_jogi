@@ -5,7 +5,7 @@ require_once 'DefaultController.php';
 require_once __DIR__ . '/../repository/UserRepository.php';
 require_once __DIR__ . '/../repository/PageTitleRepository.php';
 
-class ProfileController
+class ProfileController extends AppController
 {
     public function profile()
     {
@@ -61,4 +61,5 @@ class ProfileController
         session_destroy();
         return $this->render('settings');
     }
+
 }
